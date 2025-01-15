@@ -1,0 +1,53 @@
+
+.nav-link:hover {
+    background-color: #343a40; 
+    border-radius: 0.25rem; 
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+#cara{
+    width: 90%;
+    height: auto;
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.btn-primary {
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+.carousel-container {
+    width: 60%;
+    margin: 0 auto;
+}
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(247, 247, 247, 0.7);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.bi-facebook, .bi-instagram, .bi-twitter {
+    font-size: 2rem;
+}
+.mensaje{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
